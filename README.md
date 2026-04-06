@@ -15,63 +15,89 @@
 -> They all do the same thing , explain blood test values in English to an English-speaking audience only.
 
 **What's missing in already existing apps**
+
 No regional language support
+
 Built for individuals
+
 Generic western diet advice
+
 One-time analysis only
+
 English medical jargon
 
 **What HealthBridge does**
+
 Explains reports in Telugu and Hindi
+
 One account manages the whole family
+
 Tracks trends across months, sends alerts
+
 Simple language anyone can understand
 
 **Features**
 **🔐 Auth**
 
 User registration with BCrypt password encryption
+
 JWT login — token based authentication on all routes
 
 **👨‍👩‍👧 Family Management**
 
 Add multiple family members under one account
+
 Each member has their own report history
 
 **📄 Report Upload + AI Analysis**
 
 Upload any PDF from Dr Lal, Thyrocare, Apollo, or any lab
+
 PDFBox extracts the raw text
+
 LLM explains every biomarker in simple language
+
 Flags which values are normal and which are abnormal
+
 Suggests 3 questions to ask your doctor
 
 **🗣️ Language Support**
 
 Set your preferred language during registration
+
 All AI explanations come back in Telugu, Hindi, or English
+
 Diet recommendations are also in your language
 
 **🥗 Indian Diet Recommendations**
 
 Low iron? → "Eat rajma, palak,"
+
 Low Vitamin D? → "Spend time in sunlight, have ragi and drumstick leaves"
+
 High cholesterol? → "Avoid ghee excess, have oats, methi seeds"
+
 Not "eat kale" , actual Indian household food
+
 
 **📈 Trend Monitoring**
 
 Upload reports over time , the system compares them
+
 Detects if Haemoglobin, B12, cholesterol are improving or worsening
+
 Spring Scheduler runs every Monday morning automatically
 
 **📚 Swagger UI**
 
 Full interactive API docs at /swagger-ui.html
+
 Test every endpoint directly from the browser
 
 **Sample Flow**
+
 Register with Telugu as preferred language:
+
 jsonPOST /api/auth/register
 {
   "fullName": "Ravi Kumar",
