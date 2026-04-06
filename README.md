@@ -67,32 +67,51 @@ Register with Telugu as preferred language:
 jsonPOST /api/auth/register
 {
   "fullName": "Ravi Kumar",
+  
   "email": "ravi@gmail.com",
+  
   "password": "ravi1234",
+  
   "phone": "9876543210",
+  
   "preferredLanguage": "TELUGU"
+  
 }
-Add father as a family member:
+
+
+**Add father as a family member:**
 jsonPOST /api/family/add
+
 {
+
   "fullName": "Ravi's Father",
+  
   "relationship": "Father",
+  
   "age": 58,
+  
   "gender": "Male"
+  
 }
-Upload his blood test PDF:
+
+**Upload his blood test PDF:**
 POST /api/reports/upload/1
+
 Content-Type: multipart/form-data
 
 labName: Dr Lal Pathlabs
+
 reportType: Blood Test
+
 file: blood_report.pdf
 
-What you get back:
+**What you get back:**
 
-The aiExplanation field comes back in Telugu — explaining every value,
+-> The aiExplanation field comes back in Telugu , explaining every value,
+
 flagging abnormal ones, and suggesting what to ask the doctor.
-The dietRecommendations field gives specific Indian food advice based on the results.
+
+-> The dietRecommendations field gives specific Indian food advice based on the results.
 
 **Sample AI Response (Telugu)**
 నమస్తే రవి కుమార్ గారు,
