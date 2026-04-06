@@ -1,5 +1,7 @@
 **HealthBridge** is a Spring Boot backend that lets Indian families upload medical lab reports (blood tests, liver function, thyroid etc.) and get back a plain-language explanation — in Telugu, Hindi, or English .
 
+-> In India, many patients receive lab reports but struggle to understand them due to language barriers and medical jargon. HealthBridge aims to bridge this gap by making health insights accessible, culturally relevant, and easy to understand for entire families.
+
 -> Along with Indian diet recommendations based on the results.
 
 -> It's not just for one person.
@@ -12,7 +14,7 @@
 
 -> I looked at apps like NirogGyan, BloodGPT, Docus AI before building this. 
 
--> They all do the same thing , explain blood test values in English to an English-speaking audience only.
+-> Most existing AI health tools primarily explain reports in English, with little to no support for detailed explanations in Indian regional languages.
 
 **What's missing in already existing apps**
 
@@ -77,12 +79,12 @@ Low Vitamin D? → "Spend time in sunlight, have ragi and drumstick leaves"
 
 High cholesterol? → "Avoid ghee excess, have oats, methi seeds"
 
-Not "eat kale" , actual Indian household food
+Unlike generic “eat kale” suggestions, recommendations are tailored to common Indian household foods.
 
 
 **📈 Trend Monitoring**
 
-Upload reports over time , the system compares them
+Upload reports over time, and the system automatically compares them.
 
 Detects if Haemoglobin, B12, cholesterol are improving or worsening
 
