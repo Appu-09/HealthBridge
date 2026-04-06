@@ -1,4 +1,5 @@
-**HealthBridge** is a Spring Boot backend that lets Indian families upload medical lab reports (blood tests, liver function, thyroid etc.) and get back a plain-language explanation — in Telugu, Hindi, or English . Along with Indian diet recommendations based on the results.
+**HealthBridge** is a Spring Boot backend that lets Indian families upload medical lab reports (blood tests, liver function, thyroid etc.) and get back a plain-language explanation — in Telugu, Hindi, or English .
+-> Along with Indian diet recommendations based on the results.
 -> It's not just for one person.
 -> You can add your entire family — father, mother, spouse  and track everyone's health under one account.
 -> The system also monitors trends across multiple reports and flags when something like Haemoglobin or B12 has been consistently low.
