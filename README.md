@@ -9,6 +9,7 @@
 -> The system also monitors trends across multiple reports and flags when something like Haemoglobin or B12 has been consistently low.
 
 **The Problem With Existing Apps**
+
 -> I looked at apps like NirogGyan, BloodGPT, Docus AI before building this. 
 
 -> They all do the same thing , explain blood test values in English to an English-speaking audience only.
@@ -53,7 +54,7 @@ Diet recommendations are also in your language
 
 **🥗 Indian Diet Recommendations**
 
-Low iron? → "Eat rajma, palak, til"
+Low iron? → "Eat rajma, palak,"
 Low Vitamin D? → "Spend time in sunlight, have ragi and drumstick leaves"
 High cholesterol? → "Avoid ghee excess, have oats, methi seeds"
 Not "eat kale" , actual Indian household food
