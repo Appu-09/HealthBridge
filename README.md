@@ -9,7 +9,9 @@
 -> The system also monitors trends across multiple reports and flags when something like Haemoglobin or B12 has been consistently low.
 
 **The Problem With Existing Apps**
--> I looked at apps like NirogGyan, BloodGPT, Docus AI before building this. They all do the same thing , explain blood test values in English to an English-speaking audience only.
+-> I looked at apps like NirogGyan, BloodGPT, Docus AI before building this. 
+
+-> They all do the same thing , explain blood test values in English to an English-speaking audience only.
 
 **What's missing in already existing apps**
 No regional language support
